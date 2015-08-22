@@ -1,5 +1,5 @@
 ### Getting and Cleaning Data - Course Project - Tidy dataset
-### Motilal Singh
+### Author: Motilal Singh
 
 # Code Book 
 
@@ -10,7 +10,7 @@ Human Activity Recognition database built from the recordings of 30 subjects per
 
 ## Data Set Information:
 
-The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
@@ -30,12 +30,12 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 These variables identify the unique subject/activity pair the variables relate to:
 * Subject: the integer subject ID.
 * Activity: the string activity name: 
-+ Walking
-+ Walking Upstairs
-+ Walking Downstairs
-+ Sitting
-+ Standing
-+ Laying
+    + Walking
+    + Walking Upstairs
+    + Walking Downstairs
+    + Sitting
+    + Standing
+    + Laying
 
 
 Variable|Description
@@ -110,26 +110,25 @@ fbodybodygyrojerkmag-mean|Mean frequency of magnitude of body gyroscope jerk mea
 fbodybodygyrojerkmag-std|Standard deviation frequency of magnitude of body gyroscope jerk measurement
 
 
-* The set of variables that were estimated from these signals are: 
+## The set of variables that were estimated from these signals are: 
 + mean(): Mean value
 + std(): Standard deviation
 
 
-## Variables and summaries you calculated
+## Variables and summaries calculated
 
-+ XTrain - Data read from train/X_train.txt
-+ XTest - Data read from test/X_test.txt
-+ merged - Data merged from XTrain and XTest
-+ featureNames - Data read from features.txt
-+ matches - Mean and STD data filtered with grep
-+ activityNames - Setting Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, Laying
-+ Change t to Time
-+ Change f to Frequency
-+ subjectTrain - Data read from train/subject_train.txt
-+ subjectTest - Data read from test/subject_test.txt
-+ subjects - Merging subjectTrain, subjectTest
-+ tidyMeans - Split data frame, apply function, and return results in a data frame
-+ write.table - Writing output to tidyMeansdata.txt
++ XTrain --> Data read from train/X_train.txt
++ XTest --> Data read from test/X_test.txt
++ merged --> Data merged from XTrain and XTest
++ featureNames --> Data read from features.txt
++ matches --> Mean and STD data filtered with grep
++ activityNames --> Setting Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, Laying
++ Change t to Time and f to Frequency
++ subjectTrain --> Data read from train/subject_train.txt
++ subjectTest --> Data read from test/subject_test.txt
++ subjects --> Merging subjectTrain, subjectTest
++ tidyMeans --> Split data frame, apply function, and return results in a data frame
++ write.table --> Writing output to tidyMeansdata.txt
 
 
 
