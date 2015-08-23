@@ -19,8 +19,8 @@ The purpose of this project is to demonstrate your ability to collect, work with
 
 * Folder:
     + UCI HAR Dataset
-	+ test
-	+ train
+        + test
+        + train
 
 * Files:
     + run_analysis.R 

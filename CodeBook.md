@@ -1,6 +1,7 @@
 # Code Book 
-#### Getting and Cleaning Data - Course Project - Tidy dataset
+#### Title : Getting and Cleaning Data - Course Project - Tidy dataset
 #### Author: Motilal Singh
+
 
 ## Human Activity Recognition Using Smartphones Data Set 
 
